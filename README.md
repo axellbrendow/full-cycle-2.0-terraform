@@ -1,5 +1,7 @@
 # full-cycle-2.0-terraform
 
+Files I produced during the Terraform classes of my [Microservices Full Cycle 2.0 course](https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing).
+
 ![Terraform logo](https://static.imasters.com.br/wp-content/uploads/2021/06/07111412/terraform1.jpeg)
 
 Terraform registry with all providers: https://registry.terraform.io/
