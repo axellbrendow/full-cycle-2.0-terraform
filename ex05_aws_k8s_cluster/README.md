@@ -1,4 +1,4 @@
-## Creating VPC, Subnet, Routing Table, Security Group and Kubernetes Cluster on AWS
+## Creating VPC, Subnet, Route Table, Security Group and Kubernetes Cluster on AWS
 
 AWS provider: https://registry.terraform.io/providers/hashicorp/aws/latest
 
