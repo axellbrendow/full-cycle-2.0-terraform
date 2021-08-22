@@ -18,3 +18,26 @@ resource "aws_subnet" "subnets" {
   }
 }
 
+resource "aws_internet_gateway" "new-internet-gateway" {
+  vpc_id = aws_vpc.new-vpc.id
+  tags = {
+    "Name" = "${var.prefix}.internet-gateway"
+  }
+}
+
+resource "aws_route_table" "new-route-table" {
+  vpc_id = aws_vpc.new-vpc.id
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.new-internet-gateway.id
+  }
+  tags = {
+    "Name" = "${var.prefix}-route-table"
+  }
+}
+
+resource "aws_route_table_association" "new-route-table-association" {
+  count = 2
+  route_table_id = aws_route_table.new-route-table.id
+  subnet_id = aws_subnet.subnets.*.id[count.index]
+}
