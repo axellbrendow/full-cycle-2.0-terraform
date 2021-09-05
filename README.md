@@ -13,3 +13,4 @@ Inside each folder named "ex{number}" there are files with terraform concepts ap
 - [Getting outputs after applying changes to the infrastructure](https://github.com/axell-brendow/full-cycle-2.0-terraform/blob/master/ex03_outputs/README.md)
 - [Getting outputs from data sources](https://github.com/axell-brendow/full-cycle-2.0-terraform/blob/master/ex04_data_sources/README.md)
 - [Creating VPC, Subnet, Route Table, Security Group and Kubernetes Cluster on AWS](https://github.com/axell-brendow/full-cycle-2.0-terraform/blob/master/ex05_aws_k8s_cluster/README.md)
+- [Using Terraform Modules to create Kubernetes Cluster on AWS](https://github.com/axell-brendow/full-cycle-2.0-terraform/blob/master/ex06_aws_k8s_cluster_with_modules/README.md)
