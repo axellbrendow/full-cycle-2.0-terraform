@@ -1,6 +1,6 @@
 # full-cycle-2.0-terraform
 
-Files I produced during the Terraform classes of my [Microservices Full Cycle 2.0 course](https://drive.google.com/file/d/1MdN-qK_8Pfg6YI3TSfSa5_2-FHmqGxEP/view?usp=sharing).
+Files I produced during the Terraform classes of my [Microservices Full Cycle 3.0 course](https://drive.google.com/file/d/1bJnFxQPKgSsI30sCvW-KzYK4V5JWzgSs/view?usp=share_link).
 
 ![Terraform logo](https://static.imasters.com.br/wp-content/uploads/2021/06/07111412/terraform1.jpeg)
 
